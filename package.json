@@ -1,0 +1,45 @@
+{
+  "name": "expo-skadnetwork",
+  "version": "0.1.0",
+  "description": "Expo implementation of SKAdNetwork",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "build:plugin": "expo-module build plugin",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "open -a \"Xcode\" example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-skadnetwork",
+    "ExpoSkadnetworkModule",
+    "skadnetwork"
+  ],
+  "repository": "https://github.com/insaindesign/expo-skadnetwork",
+  "bugs": {
+    "url": "https://github.com/insaindesign/expo-skadnetwork/issues"
+  },
+  "author": "Matt Sain <matt@insaindesign.com> (https://github.com/insaindesign)",
+  "license": "MIT",
+  "homepage": "https://github.com/insaindesign/expo-skadnetwork#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-native": "^0.70.6",
+    "expo-module-scripts": "^3.0.4",
+    "expo-modules-core": "^1.1.0"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}

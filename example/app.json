@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "expo-skadnetwork-example",
+    "slug": "expo-skadnetwork-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "expo.modules.skadnetwork.example"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "expo.modules.skadnetwork.example"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "../app.plugin.js",
+        { "skadnetworks": ["abc.skadnetwork", "def.skadnetwork"] }
+      ]
+    ]
+  }
+}
